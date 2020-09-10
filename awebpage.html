@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Web Page</title>
+		<link rel="stylesheet" href="style_webpage.css" />
+		<script src="script_js.js"></script>
+	</head>
+	<body>
+		<fieldset>
+			<legend>MultiCalculadora</legend>
+				<form>
+			
+					<div class="OpcCalc">
+						<input type="radio" id="bimc" name="opcoes" checked="checked" />
+						<label for="opcoes">IMC</label>
+				
+						<input type="radio" id="bret" name="opcoes" />
+						<label for="opcoes">Retângulo</label>
+						
+						<input type="radio" id="bcir" name="opcoes" />
+						<label for="opcoes">Círculo</label>
+					</div></br>
+					
+					<div id="checkImc">
+						<table cellspacing="10px">
+							<tr>
+								<td><label for="peso">Peso: </label></td>
+								<td><input id="peso" name="peso" type="number" /></td>
+							</tr>
+							<tr>
+								<td><label for="alt">Altura: </label></td>
+								<td><input id="alt" name="alt" type="number" /></td>
+							</tr>
+							<tr>
+								<td><button type="button" onclick="calcularIMC();">Calcular</button></td>
+							</tr>
+						</table>
+					</div>
+					
+					<div id="checkRet">
+						<table cellspacing="10px">
+							<tr>
+								<td><label for="base">Base: </label></td>
+								<td><input id="base" name="base" type="number" /></td>
+							</tr>
+							<tr>
+								<td><label for="altr">Altura: </label></td>
+								<td><input id="altr" name="altr" type="number" /></td>
+							</tr>
+							<tr>
+								<td><button type="button" onclick="calcularRet();">Calcular</button></td>
+							</tr>
+						</table>
+					</div>
+					
+					<div id="checkCir">
+						<table cellspacing="10px">
+							<tr>
+								<td><label for="raio">Raio: </label></td>
+								<td><input id="raio" name="raio" type="number" /></td>
+							</tr>
+							<tr>
+								<td><button type="button" onclick="calcularCir();">Calcular</button></td>
+							</tr>
+						</table>
+					</div>
+				</form>
+			</fieldset>
+	</body>
+</html>

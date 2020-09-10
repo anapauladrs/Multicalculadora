@@ -1,0 +1,42 @@
+fieldset{
+	padding: 20px;
+	height: 250px;
+	
+}
+
+
+.OpcCalc{
+	float: left;
+}
+
+#checkImc {
+	padding: 5px;
+}
+
+#checkRet {
+	padding: 10px;
+}
+
+#checkCir {
+	padding: 10px;
+}
+
+.escondido{
+	display:none;
+}
+
+button {
+	box-shadow: 2px 2px 0;
+	font-family: Comic Sans MS;
+	font-style: bold;
+}
+
+body{
+	font-family: Comic Sans MS;
+	font-size: 14px;
+	font-style: bold;
+}
+
+input{
+	border: 2px solid black;
+}
